@@ -1,0 +1,9 @@
+.accordion-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .3s ease-out;
+}
+
+.accordion-content.open {
+    max-height: 200px;
+}
